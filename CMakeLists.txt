@@ -1,0 +1,9 @@
+CMAKE_MINIMUM_REQUIRED (VERSION 2.8)
+
+PROJECT (lfallocator)
+
+SET (SRCS
+    lf_allocX64.cpp
+)
+
+ADD_LIBRARY (${PROJECT_NAME} ${SRCS})
